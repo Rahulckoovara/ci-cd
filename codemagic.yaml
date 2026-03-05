@@ -1,6 +1,6 @@
 workflows:
   android-workflow:
-    name: AndroiddWorkflow
+    name: Android Workflow
     instance_type: mac_mini_m2
     max_build_duration: 120
     environment:
@@ -39,7 +39,7 @@ workflows:
     publishing:
       email:
         recipients:
-          - user_1@example.com
+          - rahulckoovara1445@gmail.com
           - user_2@example.com
         notify:
           success: true
